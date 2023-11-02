@@ -1,0 +1,50 @@
+*,
+*:after,
+*::before {
+  padding: 0 0;
+  margin: 0 0;
+  box-sizing: border-box;
+}
+body, html {
+  scroll-behavior: smooth;
+  height: 100%;
+  font-family: 'Epilogue', sans-serif;
+  background-color: #BBDEFB;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    padding: 40px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lesson__button{
+    padding: 50px 160px;
+    border: 0px solid #1111;
+    border-radius: 80px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    box-shadow: -1px -1px 33px 1px rgba(0,0,0,0.4);
+    -webkit-box-shadow: -1px -1px 33px 1px rgba(0,0,0,0.4);
+    -moz-box-shadow: -1px -1px 33px 1px rgba(0,0,0,0.4);
+}
+.lesson__button p{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #21678d;
+    font-weight: 600;
+    
+}
+
+.lesson__button:hover{
+    transition: all .5s;
+    box-shadow: -1px -1px 33px 3px rgba(0,0,0,0.69);
+    -webkit-box-shadow: -1px -1px 33px 3px rgba(0,0,0,0.69);
+    -moz-box-shadow: -1px -1px 33px 3px rgba(0,0,0,0.69);
+    background-color: #efeff5;
+}
