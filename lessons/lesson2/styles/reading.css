@@ -1,0 +1,18 @@
+.reading__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reading__wrapper{
+    background-color: #ffff;
+    font-size: 27px;
+    line-height: 45px;
+    padding: 30px 68px;
+    border-radius: 62px;
+    margin-bottom: 20px;
+}
+
+.reading__text{
+
+}
