@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 0</title>
+    <link rel="stylesheet" href="../../globalStyles/globalStyles.css" />
+    <link rel="stylesheet" href="../../globalStyles/quiz.css" />
+    <link rel="stylesheet" href="../../globalStyles/options.css" />
+    <link rel="stylesheet" href="../../globalStyles/speaking.css" />
+    <link rel="stylesheet" href="../../globalStyles/video.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <section>
+        <img width="1400px" src="./images/background.webp" alt="" />
+      </section>
+      <section class="practice">
+        <h3>Section 1</h3>
+        <div class="quiz-container">
+          <div class="quiz-over-modal">
+            <div class="content">
+              <h1>Good job !</h1>
+              <p>
+                You answered <span id="correct-answer"></span> out of
+                <span id="number-of-all-questions-2"></span> questions correctly
+              </p>
+              <button id="btn-try-again">I am cool</button>
+            </div>
+          </div>
+          <div class="quiz-container">
+            <div class="question-number">
+              <h3>
+                Question
+                <span id="number-of-question"></span>
+                of
+                <span id="number-of-all-questions"></span>
+              </h3>
+            </div>
+            <div id="question"></div>
+            <div class="options">
+              <div data-id="0" class="option option1"></div>
+              <div data-id="1" class="option option2"></div>
+              <div data-id="2" class="option option3"></div>
+            </div>
+            <div class="button">
+              <button id="btn-next">Next question</button>
+            </div>
+            <div id="answers-tracker"></div>
+          </div>
+        </div>
+      </section>
+      <section class="practice">
+        <h3>Section 2</h3>
+        <div class="practice__wrapper">
+          <p class="practice__wrapper--task">Choose the correct answer :</p>
+          <div class="practice__wrapper--form">
+            <form class="options__form" action=""></form>
+          </div>
+        </div>
+      </section>
+      <section class="speaking">
+        <h3>Section 3</h3>
+        <ol class="speaking__wrapper"></ol>
+      </section>
+      <section class="video">
+        <h3>Section 4</h3>
+        <div class="video__container">
+          <div class="video__wrapper">
+            <iframe class="iframe" width="1200" height="330" src="https://www.youtube.com/embed/GlQT7OJgWyI?si=ZpLiBIAfQXsyaXax" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <section class="practice">
+            <div class="practice__wrapper">
+              <p class="practice__wrapper--task">Choose true or false :</p>
+              <div class="practice__wrapper--form">
+                <form class="video__form" action=""></form>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </div>
+    <script src="./scripts/quiz.js"></script>
+    <script src="./scripts/speaking.js"></script>
+    <script src="./scripts/options.js"></script>
+    <script src="./scripts/video.js"></script>
+  </body>
+</html>

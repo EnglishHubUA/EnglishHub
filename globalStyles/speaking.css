@@ -1,12 +1,12 @@
-.questions{
-margin-top: 60px;
+.speaking{
+    margin-top: 60px;
 }
-.questions__wrapper{
+.speaking__wrapper{
     background-color: #ffff;
     border-radius: 40px;
     padding: 43px 74px;
 }
-.questions__wrapper li{
+.speaking__wrapper li{
     font-size: 35px;
     margin-top: 24px;
     font-weight: 500;

@@ -1,0 +1,15 @@
+.grammar{
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+  
+.grammar__images{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.grammar__title{
+  margin-bottom: 10px;
+  font-size: 38px;
+}

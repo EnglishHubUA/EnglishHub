@@ -8,11 +8,11 @@ const asks = [
     "How was your day today?",
 ]
 
-const htmlQuestions = document.querySelector('.questions__wrapper');
+const htmlSpeaking = document.querySelector('.speaking__wrapper');
 
 const addQuestions = (mass)=>{
     for(let q=0; q<mass.length; q++){
-        htmlQuestions.innerHTML += `<li>${mass[q]}</li>`
+        htmlSpeaking.innerHTML += `<li>${mass[q]}</li>`
     }
 }
 

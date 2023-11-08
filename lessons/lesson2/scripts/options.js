@@ -71,7 +71,7 @@ const selections1 = [
     },
 ]
 
-const practice1Form = document.querySelector('.practice1__form');
+const practice1Form = document.querySelector('.options__form');
 const practice1 = (mass) => {
     for (let item of mass) {
         practice1Form.innerHTML += `

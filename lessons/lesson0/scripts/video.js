@@ -29,7 +29,7 @@ const selections3 = [
     },
 ]
 
-const practice3Form = document.querySelector('.practice3__form');
+const practice3Form = document.querySelector('.video__form');
 const practice3 = (mass) => {
     for (let item of mass) {
         practice3Form.innerHTML += `
