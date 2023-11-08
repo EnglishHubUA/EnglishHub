@@ -80,7 +80,6 @@ const practice1 = (mass) => {
         <option class='option__practice' value=""></option>
         <option class='option__practice' value="${item.options[0]}">${item.options[0]}</option>
         <option class='option__practice' value="${item.options[1]}">${item.options[1]}</option>
-        <option class='option__practice' value="${item.options[2]}">${item.options[2]}</option>
         </select> 
         ${item.textEnd}</div>
         `

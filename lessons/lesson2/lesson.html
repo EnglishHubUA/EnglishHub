@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lesson 2</title>
+    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="../../globalStyles/globalStyles.css">
     <link rel="stylesheet" href="../../globalStyles/wordSlider.css">
     <link rel="stylesheet" href="../../globalStyles/grammar.css">
@@ -78,7 +79,36 @@
                     </p>
                 </div>
                 <div class="quiz-container">
-                    quiz reading.........
+                    <div class="quiz-over-modal">
+                        <div class="content">
+                            <h1>Good job !</h1>
+                            <p>You answered
+                                <span id="correct-answer-reading"></span> out of
+                                <span id="number-of-all-questions-2-reading"></span> questions correctly
+                            </p>
+                            <button id="btn-try-again-reading">I am cool</button>
+                        </div>
+                    </div>
+                    <div class="quiz-container">
+                        <div class="question-number">
+                            <h3>Question
+                                <span id="number-of-question-reading"></span>
+                                of
+                                <span id="number-of-all-questions-reading"></span>
+                            </h3>
+                        </div>
+                        <div id="question-reading"></div>
+                        <div class="options">
+                            <div data-id="0" class="option-reading option1-reading"></div>
+                            <div data-id="1" class="option-reading option2-reading"></div>
+                            <div data-id="2" class="option-reading option3-reading"></div>
+                        </div>
+                        <div class="button">
+                            <button id="btn-next-reading">Next question</button>
+                        </div>
+                        <div id="answers-tracker-reading">
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -88,6 +118,7 @@
     <script src="./scripts/wordsSlider.js"></script>
     <script src="./scripts/grammar.js"></script>
     <script src="./scripts/quize.js"></script>
+    <script src="./scripts/quize_reading.js"></script>
     <script src="./scripts/options.js"></script>
     <script src="./scripts/reading.js"></script>
 </body>

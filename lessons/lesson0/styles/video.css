@@ -1,0 +1,22 @@
+.video{
+    margin-top: 80px;
+}
+
+.video__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.iframe{
+    border-radius: 5px;
+}
+.video__wrapper{
+    margin-bottom: -50px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+.practice3__text{
+    display: flex;
+    justify-content: space-between;
+}

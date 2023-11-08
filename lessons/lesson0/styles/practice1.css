@@ -1,11 +1,10 @@
-.practice{
+.practice1{
     margin-top: 30px;
 }
 
 
 .quiz-container {
-    min-width: 550px;
-    max-width: 675px;
+    max-width: 1000px;
     min-height: 443px;
     background-color: #ffffff;
     border-radius: 10px;
