@@ -129,3 +129,11 @@ const putWords = (mass) => {
 }
 putWords(words);
 $('.wrap').slick();
+
+
+
+
+
+
+
+

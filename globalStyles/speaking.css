@@ -8,6 +8,7 @@
 }
 .speaking__wrapper li{
     font-size: 35px;
+    max-width: 1100px;
     margin-top: 24px;
     font-weight: 500;
 }
