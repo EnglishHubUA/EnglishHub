@@ -21,7 +21,7 @@ const words = [{
     'My grandma makes the best stuffed cabbage rolls.'],
 },
 {
-    image: './images/words/garlic.webp',
+    image: './images/words/garlic.jpg',
     word: 'Garlic',
     translation: 'Часник',
     example: ['I love to eat spaghetti with garlic bread for dinner.',
@@ -42,7 +42,7 @@ const words = [{
     'The little boy made a bitter face when he bit into the sour candy.'],
 },
 {
-    image: './images/words/letuce.webp',
+    image: './images/words/letuce.jpg',
     word: 'Letuce',
     translation: 'Листя салату',
     example: ['Mom puts fresh lettuce in our salads for dinner.',
@@ -56,7 +56,7 @@ const words = [{
     'In the grocery store, Sarah carefully selected a bunch of parsley to bring home.'],
 },
 {
-    image: './images/words/sour_cream.jfif',
+    image: './images/words/sour_cream.jpg',
     word: 'Sour cream',
     translation: 'Сметана',
     example: ['My mom makes delicious baked potatoes with sour cream.',
@@ -77,7 +77,7 @@ const words = [{
     'Mom roasted pumpkin seeds with salt for a tasty and healthy snack.'],
 },
 {
-    image: './images/words/beet.webp',
+    image: './images/words/beet.jpg',
     word: 'Beet',
     translation: 'Буряк',
     example: ["My mom boiled beets for dinner.",
@@ -91,7 +91,7 @@ const words = [{
     'The air near the ocean always feels a little salty and fresh.'],
 },
 {
-    image: './images/words/to_boil.jfif',
+    image: './images/words/to_boil.jpg',
     word: 'To boil',
     translation: 'Варити',
     example: ['Mom helps me boil eggs for breakfast.',
@@ -99,7 +99,7 @@ const words = [{
 
 },
 {
-    image: './images/words/butter.jfif',
+    image: './images/words/butter.jpg',
     word: 'Butter',
     translation: 'Масло',
     example: ['I spread butter on my toast every morning for breakfast.',

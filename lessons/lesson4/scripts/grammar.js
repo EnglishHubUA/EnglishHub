@@ -1,4 +1,4 @@
-const getToKnow = ["./images/getToKnow/haveHas.jpg","./images/getToKnow/ToHavePresent.jpg.png"];
+const getToKnow = ["./images/getToKnow/haveHas.jpg","./images/getToKnow/ToHavePresent.jpg"];
 const grammar = document.querySelector('.grammar__images');
 
         grammar.innerHTML += `
