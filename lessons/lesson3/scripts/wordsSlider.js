@@ -99,7 +99,8 @@ const words = [{
     image: './apple.jpg',
     word: 'Plumber',
     translation: 'Сантехнік',
-    example: ['My dad is a plumber, and he helps people with their water problems.'],
+    example: ['My dad is a plumber, and he helps people with their water problems.',
+                'Plumber is someone who helps repair and maintain the water systems in our homes.'],
 },
 {
     id: 14,
