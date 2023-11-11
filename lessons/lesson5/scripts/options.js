@@ -37,7 +37,7 @@ const selections1 = [
     },
     {
         textStart: ' ',
-        options: ['Is there', 'Are there', 'There is', 'There are not'],
+        options: ['Is there', 'Are there', 'There is not', 'There are not'],
         correct: '4',
         textEnd: '  any ice cream in the fridge.',
     },
@@ -63,7 +63,7 @@ const selections1 = [
         textStart: ' ',
         options: ['Is there', 'Are there', 'There is', 'There are not'],
         correct: '4',
-        textEnd: ' a lot of people at the beach today.',
+        textEnd: ' many people at the beach today.',
     },
     {
         textStart: ' ',
