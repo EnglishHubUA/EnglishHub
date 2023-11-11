@@ -38,7 +38,7 @@ const selections1 = [
     {
         textStart: ' ',
         options: ['Is there', 'Are there', 'There is not', 'There are not'],
-        correct: '4',
+        correct: '3',
         textEnd: '  any ice cream in the fridge.',
     },
     {
