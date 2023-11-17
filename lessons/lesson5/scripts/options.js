@@ -8,7 +8,7 @@ const selections1 = [
     {
         textStart: ' ',
         options: ['Is there', 'Are there', 'There is', 'There are not'],
-        correct: '2',
+        correct: '4',
         textEnd: ' any apples on the tree.',
     },
     {
