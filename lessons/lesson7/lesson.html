@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../globalStyles/options.css">
+  <link rel="stylesheet" href="../../globalStyles/quiz.css">
+  <link rel="stylesheet" href="../../globalStyles/wordSlider.css">
+  <link rel="stylesheet" href="../../globalStyles/globalStyles.css">
+  <link rel="stylesheet" href="../../globalStyles/reading.css">
+  <link rel="stylesheet" href="../../globalStyles/grammar.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <title>Lesson 6</title>
+</head>
+
+<body>
+  <div class="container">
+    <section class="words__card">
+      <div class="wrap">
+      </div>
+    </section>
+    <section class="grammar">
+      <h3>Grammar</h3>
+      <div  class="grammar__images">
+      </div>
+    </section>
+    <section class=" practice1 practice">
+      <h3>Practice 1</h3>
+      <div class="practice__wrapper">
+        <form class="practice1__form" action="">
+        </form>
+      </div>
+    </section>
+    <section class="practice2 practice">
+      <h3>Practice 2</h3>
+      <div class="practice__wrapper">
+        <form class="practice2__form" action="">
+        </form>
+      </div>
+    </section>
+    <section class="Reading">
+      <h3>Reading</h3>
+      <div class="reading__container">
+          <div class="reading__wrapper">
+              <p class="reading__text">Once upon a time, in a beautiful forest, there lived a little bear named Benny. Benny was always very hungry, and he loved to eat yummy food. One sunny morning, he woke up and realized he had no food left in his cave.<br>
+                Benny decided to go on an adventure to find some delicious food. He walked through the forest and saw a big tree with red apples. "Apples are my favorite!" Benny said with a big smile. He climbed the tree and picked some apples for his breakfast. <br>
+                Next, Benny strolled to a nearby river. He was lucky because he loved fish, and he knew there were many fish in the river. Benny caught a big, shiny fish with his paws and was excited about his lunch.<br>
+                As Benny was enjoying his fish, he saw a friendly rabbit hopping by. The rabbit said, "Hi, Benny! I have some carrots. Do you want some?" Benny loved carrots too, so he shared his fish with the rabbit, and they had a delicious meal together.<br>
+                Benny was so happy with his food adventure. He realized that there was plenty of delicious food in the forest, and he would never go hungry. From that day on, Benny shared his food with his forest friends, and they all lived happily ever after.<br>
+              </p>
+          </div>
+          <div class="quiz-container">
+            <div class="quiz-over-modal">
+              <div class="content">
+                  <h1>Good job !</h1>
+                  <p>You answered
+                      <span id="correct-answer"></span> out of
+                      <span id="number-of-all-questions-2"></span> questions correctly
+                  </p>
+                  <button id="btn-try-again">Try again</button>
+              </div>
+          </div>
+          <div class="quiz-container">
+              <div class="question-number">
+                  <h3>Question
+                      <span id="number-of-question"></span>
+                      of
+                      <span id="number-of-all-questions"></span>
+                  </h3>
+              </div>
+              <div id="question"></div>
+              <div class="options">
+                  <div data-id="0" class="option option1"></div>
+                  <div data-id="1" class="option option2"></div>
+                  <div data-id="2" class="option option3"></div>
+              </div>
+              <div class="button">
+                  <button id="btn-next">Next question</button>
+              </div>
+              <div id="answers-tracker">
+              </div>
+          </div>
+            </div>
+      </div>
+  </section>
+
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script type="text/javascript" src="../../slick.min.js"></script>
+  <script src="./scripts/wordsSlider.js"></script>
+  <script src="./scripts/grammar.js"></script>
+  <script src="./scripts/speaking.js"></script>
+  <script src="./scripts/options.js"></script>
+  <script src="./scripts/options2.js"></script>
+  <script src="./scripts/quiz.js"></script>
+</body>
+
+</html>
