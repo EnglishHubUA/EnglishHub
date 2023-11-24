@@ -69,8 +69,8 @@
     flex-direction: column;
     justify-content: center;
   }
-  .card:hover .front {transform: rotateY(180deg);}
-  .card:hover .back {transform: rotateY(360deg);}
+  .card:focus .front {transform: rotateY(180deg);}
+  .card:focus .back {transform: rotateY(360deg);}
 
 
   .front__img{
