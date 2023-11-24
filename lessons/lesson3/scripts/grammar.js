@@ -1,4 +1,4 @@
-const getToKnow = ["./images/getToKnow/ToHavePresent.jpg"];
+const getToKnow = ["./images/getToKnow/toHavePresent.jpg"];
 const grammar = document.querySelector('.grammar__images');
 
 let putGrammar = (mass) => {

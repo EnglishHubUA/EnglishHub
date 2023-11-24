@@ -52,7 +52,7 @@ const questions = [
         rightAnswer: 1
     },
     {
-      question: 'We _____ playing',
+      question: 'We _____ so smart',
       options: [
         'am', 'is', 'are'
       ],

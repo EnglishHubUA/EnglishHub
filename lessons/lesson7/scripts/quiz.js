@@ -24,78 +24,44 @@ const correctAnswer = document.getElementById('correct-answer'),
 
 const questions = [
     {
-        question: 'The sun ____ bright in the sky.',
-        options: [
-            'am', 'is', 'are'
-        ],
-        rightAnswer: 1
+        question: "What is the name of the bear in the story?",
+        options: ["Benny", "Bobby", "Barry"],
+        rightAnswer: 0
     },
     {
-        question: 'My favorite color ____ blue.',
-        options: [
-            'am', 'is', 'are'
-        ],
-        rightAnswer: 1
-    },
-    {
-      question: 'Apples _____ green.',
-      options: [
-        'am not', 'is not', 'are not'
-      ],
-        rightAnswer: 2
-    },
-      {
-        question: '____ your favorite color blue or green?',
-        options: [
-          'Am', 'Is', 'Are'
-        ],
-          rightAnswer: 1
+        "question": "What did Benny like to eat?",
+        "options": ["Fish", "Honey", "Yummy food"],
+        "rightAnswer": 1
       },
       {
-        question: 'Penguins _____ birds that cannot fly.',
-        options: [
-          'am', 'is', 'are'
-        ],
-          rightAnswer: 2
+        "question": "How did Benny get the apples from the tree?",
+        "options": ["He asked a friend for help", "He climbed the tree", "He found them on the ground"],
+        "rightAnswer": 1
       },
       {
-        question: 'I _____ a student.',
-        options: [
-          'am not', 'is not', 'are not'
-        ],
-          rightAnswer: 0
+        "question": "What did Benny find by the river?",
+        "options": ["Carrots", "Fish", "Honey"],
+        "rightAnswer": 1
       },
       {
-        question: 'This book ____ interesting.',
-        options: [
-          'am', 'is', 'are'
-        ],
-          rightAnswer: 1
+        "question": "Who did Benny share his fish with?",
+        "options": ["A friendly rabbit", "A squirrel", "No one"],
+        "rightAnswer": 0
       },
       {
-        question: 'I ____ happy to see my friends.',
-        options: [
-          'am', 'is', 'are'
-        ],
-          rightAnswer: 0
+        "question": "What did Benny realize at the end of his food adventure?",
+        "options": ["There was a lot of delicious food in the forest", "He should eat everything by himself", "He didn't like sharing"],
+        "rightAnswer": 0
       },
       {
-        question: 'Ann ____ very tall.',
-        options: [
-          'am', 'is', 'are'
-        ],
-          rightAnswer: 1
-      },
-      {
-        question: 'Cats ___ furry animals.',
-        options: [
-          'am', 'is', 'are'
-        ],
-          rightAnswer: 2
-      },
+        "question": "How did Benny and his forest friends live after his food adventure?",
+        "options": ["Happily ever after", "Hungry and sad", "In different forests"],
+        "rightAnswer": 0
+      }
 
-      
+
 ];
+
 numberOfAllQuestions.innerHTML = questions.length;
 
 const load = () => {
